@@ -11,8 +11,7 @@ Be sure to remember the secret key or to keep it in a safe place.<br />
 
 
 
-You may encrypt plain text by typing, copying and pasting, or by providing the<br />
-path to a file stored in your local device.
+You may encrypt plain text by typing, copying and pasting, or by providing the path to a file stored in your local device.
 
 
 
@@ -21,17 +20,17 @@ You will have the option to save the result to the local file system if desired.
 
 <br />
 
-### Install
+### Usage
 
-1. Download the [latest version of Cifra](https://github.com/rick-gwu/anjosoft.cifra-dotnet-tool/releases/latest)
-2. In Terminal (or Command-line in Windows), enter:
+Download the [latest version of Cifra](https://github.com/rick-gwu/anjosoft.cifra-dotnet-tool/releases/latest)<br />
+In Terminal (or Command-line in Windows), enter: ``dotnet tool install --global --add-source <source_folder> anjosoft.cifra``
 
-``dotnet tool install --global --add-source <source_folder> anjosoft.cifra``
+For example, if your terminal session is pointing to the Home directory and you downloaded **anjosoft.cifra.1.0.0.nupkg** to your **Downloads** folder, run: ``dotnet tool install --global --add-source ./Downloads anjosoft.cifra``
 
-For example, if you downloaded anjosoft
+To start using the tool, simply type **cifra** at the prompt.<br />
+To uninstall the tool, run ``dotnet tool uninstall -g anjosoft.cifra``<br />
 
-
-dotnet tool install --global --add-source ./nupkg anjosoft.cifra
+For more information and other installation options, see Microsoft's article on [how to manage .NET tools](https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools)
 
 
 
