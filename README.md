@@ -1,4 +1,4 @@
-# anjosoft.cifra
+# Cifra
 
 v.1.0.0
 
@@ -19,5 +19,19 @@ path to a file stored in your local device.
 Cipher text and secret key will be displayed once encryption/decryption is complete.<br />
 You will have the option to save the result to the local file system if desired.
 
+<br />
 
-### How to install
+### Install
+
+1. Download the [latest version of Cifra](https://github.com/rick-gwu/anjosoft.cifra-dotnet-tool/releases/latest)
+2. In Terminal (or Command-line in Windows), enter:
+
+``dotnet tool install --global --add-source <source_folder> anjosoft.cifra``
+
+For example, if you downloaded anjosoft
+
+
+dotnet tool install --global --add-source ./nupkg anjosoft.cifra
+
+
+
