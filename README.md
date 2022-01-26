@@ -18,9 +18,9 @@ You may encrypt plain text by typing, copying and pasting, or by providing the p
 Cipher text and secret key will be displayed once encryption/decryption is complete.<br />
 You will have the option to save the result to the local file system if desired.
 
-<br />
 
-### Usage
+
+### Installation
 
 Download the [latest version of Cifra](https://github.com/rick-gwu/anjosoft.cifra-dotnet-tool/releases/latest)<br />
 In Terminal (or Command-line in Windows), enter: ``dotnet tool install --global --add-source <source_folder> anjosoft.cifra``
@@ -34,4 +34,4 @@ To uninstall the tool, run ``dotnet tool uninstall -g anjosoft.cifra``<br />
 
 For more information and other installation options, see Microsoft's article on [how to manage .NET tools](https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools)
 
-For help with installation errors, see Microsoft's article on [How to troubleshoot .NET tool usage issues](https://docs.microsoft.com/en-us/dotnet/core/tools/troubleshoot-usage-issues)
+For help with installation errors, see Microsoft's article on [how to troubleshoot .NET tool usage issues](https://docs.microsoft.com/en-us/dotnet/core/tools/troubleshoot-usage-issues)
