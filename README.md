@@ -25,12 +25,15 @@ You will have the option to save the result to the local file system if desired.
 Download the [latest version of Cifra](https://github.com/rick-gwu/anjosoft.cifra-dotnet-tool/releases/latest)<br />
 In Terminal (or Command-line in Windows), enter: ``dotnet tool install --global --add-source <source_folder> anjosoft.cifra``
 
-For example, if your terminal session is pointing to the Home directory and you downloaded **anjosoft.cifra.1.0.0.nupkg** to your **Downloads** folder, run: ``dotnet tool install --global --add-source ./Downloads anjosoft.cifra``
+Examples:
+
+Your terminal session is pointing to the Home directory and you downloaded **anjosoft.cifra.1.0.0.nupkg** to your **Downloads** folder:  ``dotnet tool install --global --add-source ./Downloads anjosoft.cifra``
+
+If you are getting a 401 error when installing the tool on Windows, you may try using the following the **ignore-failed-sources** flag: ``dotnet tool install --g --add-source ./Downloads --ignore-failed-sources anjosoft.cifra``
 
 To start using the tool, simply type **cifra** at the prompt.<br />
 To uninstall the tool, run ``dotnet tool uninstall -g anjosoft.cifra``<br />
 
 For more information and other installation options, see Microsoft's article on [how to manage .NET tools](https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools)
 
-
-
+For help with installation errors, see Microsoft's article on [How to troubleshoot .NET tool usage issues](https://docs.microsoft.com/en-us/dotnet/core/tools/troubleshoot-usage-issues)
