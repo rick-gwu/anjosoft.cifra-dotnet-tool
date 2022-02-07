@@ -27,7 +27,7 @@ In Terminal (or Command-line in Windows), enter: ``dotnet tool install --global 
 
 For example, if your terminal session is pointing to the Home directory and you downloaded **anjosoft.cifra.1.0.0.nupkg** to your **Downloads** folder, run:  ``dotnet tool install --global --add-source ./Downloads anjosoft.cifra``
 
-If you are getting a 401 error when installing the tool on Windows, you may try using the **ignore-failed-sources** flag: ``dotnet tool install --g --add-source ./Downloads --ignore-failed-sources anjosoft.cifra``
+If you are getting a 401 error when installing the tool on Windows, you may try using the **ignore-failed-sources** flag: ``dotnet tool install -g --add-source ./Downloads --ignore-failed-sources anjosoft.cifra``
 
 To start using the tool, simply type **cifra** at the prompt.<br />
 To uninstall the tool, run ``dotnet tool uninstall -g anjosoft.cifra``<br />
