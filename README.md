@@ -35,3 +35,5 @@ To uninstall the tool, run ``dotnet tool uninstall -g anjosoft.cifra``<br />
 For more information and other installation options, see Microsoft's article on [how to manage .NET tools](https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools)
 
 For help with installation errors, see Microsoft's article on [how to troubleshoot .NET tool usage issues](https://docs.microsoft.com/en-us/dotnet/core/tools/troubleshoot-usage-issues)
+
+If you have problems encrypting/decrypting a large text in Windows, know that Command prompt and Powershell have a limit to the length of strings that you can use. In that case, break down your plaintext into smaller chunks.
